@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct FakeStoreApiMvApproachApp: App {
+    
+    @StateObject private var storeModel = StoreModel(webService: Webservice())
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //All the variables are now available within the content view. 
+            ContentView().environmentObject(storeModel)
         }
     }
 }
