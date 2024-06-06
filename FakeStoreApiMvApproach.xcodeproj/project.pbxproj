@@ -12,6 +12,8 @@
 		9461EE442C11B86400669FBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9461EE432C11B86400669FBF /* Assets.xcassets */; };
 		9461EE472C11B86400669FBF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9461EE462C11B86400669FBF /* Preview Assets.xcassets */; };
 		9461EE4F2C11B9C800669FBF /* StoreModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9461EE4E2C11B9C800669FBF /* StoreModel.swift */; };
+		9461EE512C11BAB700669FBF /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9461EE502C11BAB700669FBF /* Product.swift */; };
+		9461EE542C11BB6E00669FBF /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9461EE532C11BB6E00669FBF /* Webservice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		9461EE432C11B86400669FBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9461EE462C11B86400669FBF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9461EE4E2C11B9C800669FBF /* StoreModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreModel.swift; sourceTree = "<group>"; };
+		9461EE502C11BAB700669FBF /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		9461EE532C11BB6E00669FBF /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,7 @@
 		9461EE3E2C11B86300669FBF /* FakeStoreApiMvApproach */ = {
 			isa = PBXGroup;
 			children = (
+				9461EE522C11BB5100669FBF /* Services */,
 				9461EE4D2C11B9A200669FBF /* Models */,
 				9461EE3F2C11B86300669FBF /* FakeStoreApiMvApproachApp.swift */,
 				9461EE412C11B86300669FBF /* ContentView.swift */,
@@ -74,8 +79,17 @@
 			isa = PBXGroup;
 			children = (
 				9461EE4E2C11B9C800669FBF /* StoreModel.swift */,
+				9461EE502C11BAB700669FBF /* Product.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		9461EE522C11BB5100669FBF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9461EE532C11BB6E00669FBF /* Webservice.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,7 +163,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9461EE422C11B86300669FBF /* ContentView.swift in Sources */,
+				9461EE512C11BAB700669FBF /* Product.swift in Sources */,
 				9461EE402C11B86300669FBF /* FakeStoreApiMvApproachApp.swift in Sources */,
+				9461EE542C11BB6E00669FBF /* Webservice.swift in Sources */,
 				9461EE4F2C11B9C800669FBF /* StoreModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
